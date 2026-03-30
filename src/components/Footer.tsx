@@ -18,14 +18,14 @@ export default function Footer() {
             <div className="space-y-3">
               <a
                 href="tel:+33634171045"
-                className="flex items-center gap-3 text-gray-400 hover:text-orange-500 transition-colors"
+                className="flex items-center gap-3 text-gray-400 hover:text-blue-600 transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 06 34 17 10 45
               </a>
               <a
                 href="mailto:contact@bg2m-plomberie.fr"
-                className="flex items-center gap-3 text-gray-400 hover:text-orange-500 transition-colors"
+                className="flex items-center gap-3 text-gray-400 hover:text-blue-600 transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 contact@bg2m-plomberie.fr
@@ -56,10 +56,10 @@ export default function Footer() {
             © 2024 BG2M Plomberie. Tous droits réservés.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">
+            <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
               Mentions légales
             </a>
-            <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">
+            <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
               Politique de confidentialité
             </a>
           </div>

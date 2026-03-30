@@ -1,71 +1,68 @@
-import { Phone, FileText, CheckCircle2, Wrench } from 'lucide-react';
+import { Phone, FileText, Clock } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-10"></div>
+    <section className="relative bg-slate-950 text-white overflow-hidden min-h-[80vh] flex items-center">
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Rapide quand il faut.<br />
-                <span className="text-orange-500">Irréprochable</span> sur le résultat.
-              </h1>
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"></div>
 
-              <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-                BG2M Plomberie intervient rapidement à Juvisy-sur-Orge, en Essonne et en Île-de-France pour des travaux propres, durables et réalisés avec sérieux.<br />
-                <span className="font-semibold text-white">Une vraie réactivité, sans compromis sur la qualité.</span>
-              </p>
+      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24 w-full">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+
+          {/* Partie gauche - Texte */}
+          <div className="space-y-7">
+            <div className="inline-flex items-center gap-2 bg-blue-700/10 text-blue-400 text-xs font-medium px-4 py-1.5 rounded-full border border-blue-600/20">
+              <Clock className="w-3.5 h-3.5" />
+              Intervention rapide - Essonne & Île-de-France
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+              Ne confiez pas votre plomberie<br />
+              <span className="text-blue-600">au premier venu.</span>
+            </h1>
+
+            <p className="text-base text-gray-400 max-w-md leading-relaxed">
+              Fuite, canalisation bouchée, chauffe-eau en panne ou installation complète :{' '}
+              <span className="text-gray-200 font-medium">BG2M intervient avec sérieux et travail durable.</span>
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-3">
               <a
                 href="tel:+33634171045"
-                className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base px-7 py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
                 <Phone className="w-5 h-5" />
-                Être rappelé rapidement
+                Appeler maintenant
               </a>
 
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-slate-900 font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 border border-white/25 hover:bg-white/8 font-semibold text-base px-7 py-4 rounded-xl transition-all"
               >
                 <FileText className="w-5 h-5" />
-                Demander un devis
+                Demander un devis gratuit
               </a>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
-              <div className="flex items-center gap-3 text-sm">
-                <CheckCircle2 className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span>Réponse rapide</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm">
-                <CheckCircle2 className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span>Travail soigné</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm">
-                <CheckCircle2 className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span>Résultat durable</span>
-              </div>
             </div>
           </div>
 
-          <div className="block">
-            <div className="relative">
-              <div className="absolute -inset-4 bg-orange-500/20 rounded-3xl blur-3xl"></div>
-              <img
-                src="/Capture_d'écran_2026-03-30_à_12.05.01_PM.png"
-                alt="Plombier professionnel BG2M"
-                className="relative rounded-3xl shadow-2xl w-full h-[400px] sm:h-[500px] object-cover"
-              />
-              <div className="absolute -bottom-6 -right-6 bg-orange-500 text-white p-6 rounded-2xl shadow-xl">
-                <Wrench className="w-8 h-8 mb-2" />
-                <p className="font-bold text-2xl">15+</p>
-                <p className="text-sm">Ans d'expérience</p>
+          {/* Partie droite - Photo du plombier */}
+          <div className="relative mt-0 lg:mt-4">
+            <div className="absolute -inset-8 bg-blue-600/10 rounded-[3rem] blur-3xl"></div>
+
+            <img
+              src="/hero.png"
+              alt="Plombier professionnel BG2M Plomberie"
+              className="relative rounded-3xl shadow-2xl w-full object-cover lg:h-[460px]"
+            />
+
+            {/* Badge expérience */}
+            <div className="absolute -bottom-5 -right-5 bg-slate-900 border border-blue-600/30 px-6 py-5 rounded-2xl shadow-2xl">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">🔧</span>
+                <div>
+                  <p className="text-3xl font-bold text-white">15+</p>
+                  <p className="text-blue-400 text-xs font-medium">ans d'expérience</p>
+                </div>
               </div>
             </div>
           </div>

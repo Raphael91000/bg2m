@@ -46,11 +46,11 @@ export default function Testimonials() {
               key={index}
               className="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 relative"
             >
-              <Quote className="absolute top-6 right-6 w-12 h-12 text-orange-500/20" />
+              <Quote className="absolute top-6 right-6 w-12 h-12 text-blue-600/20" />
 
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-orange-500 text-orange-500" />
+                  <Star key={i} className="w-5 h-5 fill-blue-600 text-blue-600" />
                 ))}
               </div>
 
