@@ -15,7 +15,7 @@ export default function Positioning() {
 
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
             Un chantier mal fait coûte toujours plus cher à refaire.<br />
-            Chez BG2M Plomberie, chaque intervention est réalisée avec exigence :
+            Chez Maleva Plomberie, chaque intervention est réalisée avec exigence :
             <span className="font-semibold text-slate-900"> diagnostic sérieux, explications claires et travail propre du début à la fin.</span>
           </p>
         </div>

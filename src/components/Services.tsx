@@ -39,10 +39,10 @@ export default function Services() {
           <p className="text-blue-600 font-semibold text-sm uppercase tracking-widest mb-3">Ce qu'on fait</p>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
             Nos services de plomberie<br />
-            <span className="text-blue-600">en Essonne & Île-de-France</span>
+            <span className="text-blue-600">à Marseille & alentours</span>
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Du dépannage d'urgence à la rénovation complète, BG2M intervient sur tous vos chantiers avec sérieux.
+            Du dépannage d'urgence à la rénovation complète, Maleva intervient sur tous vos chantiers avec sérieux.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function Services() {
                 </ul>
 
                 <a
-                  href="tel:+33634171045"
+                  href="tel:+33611412188"
                   className={`mt-auto inline-flex items-center gap-2 font-semibold ${service.accent} hover:gap-3 transition-all text-sm`}
                 >
                   Demander un devis <ArrowRight className="w-4 h-4" />

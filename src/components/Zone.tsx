@@ -1,7 +1,7 @@
 import { MapPin } from 'lucide-react';
 
 const zones = [
-  'Juvisy-sur-Orge',
+  'Marseille',
   'Évry-Courcouronnes',
   'Corbeil-Essonnes',
   'Sainte-Geneviève-des-Bois',
@@ -12,7 +12,7 @@ const zones = [
   'Yerres',
   'Brunoy',
   'Montgeron',
-  'Et toute l\'Île-de-France'
+  'Et toute l\'Marseille'
 ];
 
 export default function Zone() {
@@ -27,7 +27,7 @@ export default function Zone() {
             Zone d'intervention
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Basés à Juvisy-sur-Orge, nous intervenons dans toute l'Essonne et en Île-de-France.
+            Basés à Marseille, nous intervenons dans toute l'Essonne et en Marseille.
           </p>
         </div>
 

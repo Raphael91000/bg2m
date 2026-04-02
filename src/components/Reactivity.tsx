@@ -10,7 +10,7 @@ export default function Reactivity() {
           </h2>
 
           <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-            BG2M Plomberie intervient rapidement tout en garantissant un travail propre, réfléchi et durable.
+            Maleva Plomberie intervient rapidement tout en garantissant un travail propre, réfléchi et durable.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 pt-8">

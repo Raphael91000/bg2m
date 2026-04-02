@@ -3,8 +3,8 @@ import { Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Sophie M.',
-    location: 'Juvisy-sur-Orge',
-    text: 'Intervention très professionnelle pour une fuite urgente. Travail propre et sérieux, je recommande vivement BG2M Plomberie.',
+    location: 'Marseille',
+    text: 'Intervention très professionnelle pour une fuite urgente. Travail propre et sérieux, je recommande vivement Maleva Plomberie.',
     rating: 5
   },
   {

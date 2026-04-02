@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="space-y-7">
             <div className="inline-flex items-center gap-2 bg-blue-700/10 text-blue-400 text-xs font-medium px-4 py-1.5 rounded-full border border-blue-600/20">
               <Clock className="w-3.5 h-3.5" />
-              Intervention rapide - Essonne & Île-de-France
+              Intervention rapide - Marseille & alentours
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
@@ -23,12 +23,12 @@ export default function Hero() {
 
             <p className="text-base text-gray-400 max-w-md leading-relaxed">
               Fuite, canalisation bouchée, chauffe-eau en panne ou installation complète :{' '}
-              <span className="text-gray-200 font-medium">BG2M intervient avec sérieux et travail durable.</span>
+              <span className="text-gray-200 font-medium">Maleva intervient avec sérieux et travail durable.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="tel:+33634171045"
+                href="tel:+33611412188"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold text-base px-7 py-4 rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
                 <Phone className="w-5 h-5" />
@@ -51,7 +51,7 @@ export default function Hero() {
 
             <img
               src="/hero.png"
-              alt="Plombier professionnel BG2M Plomberie"
+              alt="Plombier professionnel Maleva Plomberie"
               className="relative rounded-3xl shadow-2xl w-full object-cover lg:h-[460px]"
             />
 

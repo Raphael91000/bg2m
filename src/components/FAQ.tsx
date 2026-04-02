@@ -4,11 +4,11 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'Intervenez-vous en urgence ?',
-    answer: 'Oui. Pour les fuites ou pannes urgentes, on essaie d\'intervenir dans la journée ou le lendemain. Appelez-nous directement au 06 34 17 10 45 pour les urgences.',
+    answer: 'Oui. Pour les fuites ou pannes urgentes, on essaie d\'intervenir dans la journée ou le lendemain. Appelez-nous directement au 06 11 41 21 88 pour les urgences.',
   },
   {
     question: 'Dans quelles villes intervenez-vous ?',
-    answer: 'On intervient principalement en Essonne (91) : Juvisy-sur-Orge, Évry, Sainte-Geneviève-des-Bois, Viry-Châtillon, Corbeil-Essonnes, et plus largement en Île-de-France. Contactez-nous pour vérifier votre commune.',
+    answer: 'On intervient principalement à Marseille et dans les communes alentours : Aubagne, Cassis, La Ciotat, Allauch, Plan-de-Cuques... Contactez-nous pour vérifier votre commune.',
   },
   {
     question: 'Est-ce que le déplacement est payant ?',

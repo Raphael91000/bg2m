@@ -35,8 +35,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Téléphone</p>
-                  <a href="tel:+33634171045" className="text-xl font-bold hover:text-blue-400 transition-colors">
-                    06 34 17 10 45
+                  <a href="tel:+33611412188" className="text-xl font-bold hover:text-blue-400 transition-colors">
+                    06 11 41 21 88
                   </a>
                 </div>
               </div>
@@ -47,7 +47,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Zone d'intervention</p>
-                  <p className="text-white font-semibold">Essonne (91) & Île-de-France</p>
+                  <p className="text-white font-semibold">Marseille & alentours</p>
                 </div>
               </div>
 
@@ -57,13 +57,13 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Disponibilité</p>
-                  <p className="text-white font-semibold">Lundi – Samedi, 8h – 19h</p>
+                  <p className="text-white font-semibold">Lundi – Dimanche, 24h/24</p>
                 </div>
               </div>
             </div>
 
             <a
-              href="tel:+33634171045"
+              href="tel:+33611412188"
               className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-5 rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 text-lg"
             >
               <Phone className="w-6 h-6" />
@@ -121,7 +121,7 @@ export default function Contact() {
                   <input
                     type="text"
                     required
-                    placeholder="Juvisy-sur-Orge"
+                    placeholder="Marseille"
                     className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition"
                   />
                 </div>

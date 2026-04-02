@@ -87,7 +87,7 @@ export default function Approach() {
 
             <div className="mt-10 pt-8 border-t border-white/10">
               <a
-                href="tel:+33634171045"
+                href="tel:+33611412188"
                 className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition-all text-lg"
               >
                 Appeler maintenant

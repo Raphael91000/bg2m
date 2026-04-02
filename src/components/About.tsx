@@ -11,7 +11,7 @@ export default function About() {
             </h2>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              BG2M Plomberie est une société basée à Juvisy-sur-Orge.
+              Maleva Plomberie est une société basée à Marseille.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -45,7 +45,7 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Ancrage local</h3>
-                  <p className="text-gray-600">Basés à Juvisy-sur-Orge, nous connaissons parfaitement la région</p>
+                  <p className="text-gray-600">Basés à Marseille, nous connaissons parfaitement la région</p>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function About() {
           <div className="relative">
             <img
               src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Équipe BG2M Plomberie"
+              alt="Équipe Maleva Plomberie"
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl max-w-xs">
